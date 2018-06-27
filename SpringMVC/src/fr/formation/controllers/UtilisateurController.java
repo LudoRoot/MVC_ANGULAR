@@ -25,7 +25,7 @@ public class UtilisateurController {
     @Autowired
     private IUtilisateurJpaRepository utilisateurRepo;
 
-    @GetMapping("/goToMenu")
+    @GetMapping("/goToMenu")		//entrée
     public String goToMenu() {
 	return "menuUtilisateur";
     }
